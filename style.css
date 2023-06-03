@@ -1,0 +1,433 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+
+    background-image: url(slider-01.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+
+}
+
+
+.home .navbar{
+    width: 90%;
+    margin: auto;
+    position: fixed;
+
+}
+
+.home .navbar a{
+    color: rgb(190, 42, 92);
+    text-decoration: none;
+    transition: all .2s;
+}
+.home .navbar .list a:hover{
+    color: rgb(190, 42, 92);
+
+}
+
+.home .navbar .logo{
+    float: left;
+    font-size: 24px;
+    padding: 20px ;
+    margin-left: 5%;
+}
+
+.home .navbar .list a{
+    float: right;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+    margin-right: 10px;
+       
+}
+
+.home .navbar .list{
+    list-style: none;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+.slider-text{
+    margin: auto;
+    padding-top: 220px;
+    color: rgb(255, 255, 255);
+    line-height:1.5cm ;
+}
+
+.slider-text h3{
+    text-align: center;
+    font-size: 24px;
+}
+
+.slider-text h4{
+    text-align: center;
+    font-size: 24px;
+}
+
+h1{
+    color: rgb(190, 42, 92);
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+h2, h3 ,h4 , h6{
+    text-align: center;
+    font-size: 24px;
+}
+
+.about{
+    margin-top: 5%;
+}
+
+.about .about-content{
+    width: 50%;
+    float: right;
+}
+.about img{
+    width: 50%;
+}
+
+.about .about-img{
+    width: 50%;
+    float: left;
+    position: absolute;
+    left: 200px;
+    transition:all .5s;
+}
+
+
+
+.about .about-content p{
+    width: 80%;
+    margin-top: 5%;
+    font-size: 18px;
+}
+
+hr{
+    width: 80%;
+    
+}
+
+.about .about-content h5{
+    font-size: 32px;
+}
+
+.about .about-content h5::before{
+    content: "I ";
+    color: red;
+    font-size: 32px;
+}
+
+
+li{
+    list-style: none;
+}
+ 
+
+.ul-r{
+    position: absolute;
+    right: 20%;
+    float: right;
+    line-height: .7cm;
+}   
+.ul-l{
+    float: left;
+    line-height: .7cm;
+}
+
+.download-cv{
+    margin-top: 10px;
+}
+
+
+.download-cv .btn{
+    padding: 10px 20px;
+    background-color:rgb(190, 42, 92);
+    color: white;
+    font-size: 18px;
+    border: 3px solid rgb(190, 42, 92);
+    border-radius: 6px;
+    transition: all.2s;
+}
+.download-cv .btn:hover {
+    background-color: red;
+}
+
+.download-cv .btn2:hover {
+    background-color: red;
+}
+
+.about-img::before{
+    content:"";
+    position: absolute;
+    width: 8px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+    left: -30px;
+    top: -20px;   
+        
+        
+}
+
+.about-img::after{
+    content: "";
+        position: absolute;
+        width: 50%;
+        height: 8px;
+        background-color: rgba(0, 0, 0, 0.425);
+        left: -30px;
+        top: -20px;
+}
+
+.services {
+    margin-top: 15%;
+    line-height: .6cm;
+
+    background-color: rgba(156, 154, 154, 0.144);
+}
+
+.services h3{
+    margin-bottom: 10%;
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+
+.services .container{
+    padding-top: 5%;
+    width: 80%;
+    margin: auto;
+}
+
+.services .services-types {
+    
+    width: 25%;
+    float: left;
+    transition: all 2s;
+    padding-bottom: 5%;
+}
+
+.services .services-types:hover{
+    
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    box-shadow: 3px;
+
+}
+
+
+
+
+.services p{
+    font-size: 16px;
+}
+.services .services-container{
+    margin-top: 5%;
+}
+.services-types h4{
+    padding-bottom: 10%;
+}
+
+.portfolio .btns{
+    margin: auto;
+    width: fit-content;
+    color: white;
+}
+ 
+.portfolio .btns button{
+        cursor: pointer;
+        margin: 5px;
+        margin-bottom: 20%;
+}
+
+.portfolio .image{
+    width: 33%;
+    float: right;
+    transition: all ;
+}
+
+.portfolio .image:hover{
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    box-shadow: 2px;
+}
+
+.portfolio .image img{
+width: 90%;
+
+}
+
+.portfolio{
+    margin-top: 5%;
+}
+
+.portfolio h4{
+    margin-bottom: 20px;
+}
+
+.counter{
+    margin: auto;
+    margin-top: 10%;
+    width: 80%;
+    line-height: .8cm;
+
+}
+
+
+
+.counter .counter-num{
+    float: left;
+    width: 25%;
+    transition: all 1s;
+
+}
+.counter .counter-num:hover{
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    box-shadow: 3px;
+}
+
+.counter .counter-num h5, .counter .counter-num h6{
+    text-align: center;
+}
+
+.counter .counter-num h5{
+    font-size: 20px;
+}
+
+.testimonial{
+    margin: auto;
+    margin-top: 10%;
+    width: 90%;
+    
+}
+
+.testimonial h4{
+    margin-bottom: 5%;
+
+}
+
+.testimonial .testimonial-block{
+    width: 40%;
+    float: left;
+    
+}
+
+.testimonial .testimonial-block img{
+    border-radius: 50%;
+    width: 15%;
+    float: left;
+}
+
+.blog{
+    margin: auto;
+    margin-top: 10%;
+    width: 80%;
+    
+}
+
+.blog h4{
+    margin-bottom: 5%;
+    font-size: 32px;
+
+}
+
+.blog .blog-content{
+    width: 33.3%;
+    float: right;
+    
+}
+
+.blog .blog-content img{
+    width: 70%;
+}
+
+.blog .blog-content iframe{
+    width: 70%;
+}
+
+.blog .blog-content a{
+    cursor: pointer;
+}
+
+.blog .blog-content h5{
+    font-size: 28px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.blog .blog-content p{
+    width: 80%;
+}
+
+.contact{
+    margin: auto;
+    margin-top: 10%;
+    width: 70%;
+
+}
+
+.contact h4{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact button{
+    margin-top: 20px;
+    padding: 7px 20px;
+    background-color: rgb(190, 42, 92);
+    color: white;
+    font-size: 18px;
+    border: 3px solid rgb(190, 42, 92);
+    border-radius: 6px;
+}
+
+.contact .name-container{
+    width: 50%;
+    float: left;
+}
+
+.contact .email-container{
+    width: 50%;
+    float: left;
+}
+
+.contact .name , .contact .email  {
+    width: 90%;
+    height: 30px;
+    margin-bottom: 10px;
+
+}
+
+.contact .subject{
+    width: 95%;
+    height: 30px;
+    margin-bottom:10px ;
+
+}
+
+.contact .text-area{
+    width: 95%;
+}
+
+.footer {
+    background-color: rgb(58, 57, 57);
+    color: white;
+    text-align: center;
+    padding: 5%;
+    margin-top: 10%;
+    font-size: 18px;
+}
+
+.footer span{
+    color:rgb(190, 42, 92);
+    cursor: pointer;
+}
